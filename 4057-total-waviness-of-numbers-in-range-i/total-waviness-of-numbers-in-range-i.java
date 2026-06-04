@@ -9,7 +9,7 @@ class Solution {
             
             for(int i=0;i<=numstr.length()-3;i++)
             {
-                if(i<numstr.length()){
+                
                 char numchr1=numstr.charAt(i);
                 char numchr2=numstr.charAt(i+1);
                 char numchr3=numstr.charAt(i+2);
@@ -17,7 +17,7 @@ class Solution {
                 {
                     total_waviness+=1;
                 }
-                }
+                
             }
             }
         }
